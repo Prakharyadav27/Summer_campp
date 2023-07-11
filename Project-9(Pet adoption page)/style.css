@@ -1,0 +1,24 @@
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.card{
+    height: 500px;
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+   
+}
+
+img{
+    width: 90%;
+    height: 30%;
+}   
+
+p{
+    padding: 10px;
+}
