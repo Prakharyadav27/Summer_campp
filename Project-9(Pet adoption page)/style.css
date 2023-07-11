@@ -26,5 +26,18 @@ h4 {
 
 #pets {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-evenly;
+}
+
+
+@media(max-width: 500px){
+    #pets{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        width: 300px;
+    }
 }
