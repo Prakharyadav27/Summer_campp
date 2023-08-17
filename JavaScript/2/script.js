@@ -5,8 +5,9 @@ const ans = document.getElementById("hello");
 button.addEventListener("click", () => {
   const val = uname.value;
   localStorage.setItem("name", val);
-//   const name = localStorage.getItem("name");
-//   ans.innerText = `Hello, ${name}`;
+  //   const name = localStorage.getItem("name");
+  //   ans.innerText = `Hello, ${name}`;
+  location.reload();
 });
 
 window.addEventListener("load", () => {
