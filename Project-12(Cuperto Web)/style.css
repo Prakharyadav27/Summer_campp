@@ -23,9 +23,29 @@ html,body{
 #nav{
     width: 100%;
     padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #nav img{
-    
     width: 80px;
+}
+#nav #right{
+
+    display: flex ;
+    align-items: center;
+    gap: 30px;    
+}
+#nav a{
+text-decoration: none;
+font-weight: 520;
+font-size: 1.2vw;
+color: black;
+letter-spacing: -.5px;
+}
+
+#nav i{
+    margin-top: 3px ;
+    font-size: 15px;
 }
