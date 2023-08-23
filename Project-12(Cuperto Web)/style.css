@@ -88,3 +88,79 @@ letter-spacing: -.5px;
     color: #fff;
 background-color: #000;
 }
+
+#featured{
+    padding: 12vw 15vw;
+}
+
+#featured>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#featured h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#fimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0vw;
+    margin-top: 50px;   
+}
+
+#fleft{
+    width: 45%;
+    min-height: inherit ;
+    overflow: auto;
+    
+}
+
+#fleft::-webkit-scrollbar{
+    display: none;
+}
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    min-height: inherit ;
+ 
+
+}
+
+#fright #imagess{
+    height: 90%;
+    width: 90%;
+    background-color: red;
+}
+
+.fleftelm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fleftelm>h2{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.fleftelm>h4{
+opacity: 0.5;
+}
+
+.fleftelm>h3{
+    font-weight: 400;
+}
