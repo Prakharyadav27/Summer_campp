@@ -76,3 +76,15 @@ letter-spacing: -.5px;
     color: transparent;
     -webkit-text-stroke: 1px black;
 }
+
+#home-last{
+    font-size: 1.7vw;
+    font-weight: 500;
+    padding: 10vw 10vw;
+
+}
+
+#home-last p::selection{
+    color: #fff;
+background-color: #000;
+}
