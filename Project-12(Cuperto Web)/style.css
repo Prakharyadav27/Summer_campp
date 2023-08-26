@@ -18,7 +18,7 @@ html,body{
 .home{
     width: 100%;
     min-height: 100vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 #nav{
@@ -84,9 +84,10 @@ letter-spacing: -.5px;
 
 }
 
-#home-last p::selection{
+
+* ::selection{
     color: #fff;
-background-color: #000;
+    background-color: #000;
 }
 
 #featured{
@@ -162,5 +163,80 @@ opacity: 0.5;
 }
 
 .fleftelm>h3{
+    font-weight: 400;
+}
+
+.btndiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btndiv button{
+    padding: 1vw 2.5vw;
+    border: 1px solid #b1b1b1;
+    border-radius: 100px;
+    background-color: #fff;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#dev{
+    width: 100% ;
+    padding: 5vw 15vw;
+}
+
+#dev h1{
+    font-size: 4vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+    
+}
+
+#dev p{
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 50%;
+}
+
+#slides{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 5vw;
+
+}
+
+.slide{
+    width: 29%;
+   
+}
+
+.slide .img{
+  
+    width: 100%;
+    height: 180px;
+}
+
+.slide .img img{ 
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.slide .tag{
+    font-size: 1vw;
+    margin: 15px 0;
+    border-radius: 100px;
+    padding: 10px 22px;
+    background-color: #dadadade;
+    width: fit-content;
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    letter-spacing: -.5px;
     font-weight: 400;
 }
