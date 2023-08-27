@@ -1,0 +1,18 @@
+REST API - JSON
+USE MOCKAROO FOR HARDCODE DATA
+
+
+
+GET /users - List all users {HTML RENDER} - DONE
+GET /api/users - List all users  {JSON} - DONE
+GET /api/users/1 - List the user with id 1
+GET /api/users/2 - List the user with id 2
+
+DYNAMIC PATH PARAMETERS
+/api/users/:id
+
+POST /api/users - Create a user
+
+PATCH /api/users/1 - Update info of user with id 1
+
+DELETE /api/users/1 - Delete the user with id 1

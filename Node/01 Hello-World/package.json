@@ -1,0 +1,11 @@
+{
+  "name": "01-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "hello": "node script.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
